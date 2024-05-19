@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>My Portfolio</h1>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am Ayub Sowkar, a student. I specialize in Business Administration and have a passion for Finance & Design. Welcome to my portfolio website!</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Worked as a Customer Representative at Cyber Gallery Surathkal.</p>
+            <a href="link-to-project-1.com">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Presently working as a Cashier at Al-Baik Restaurant at Surathkal.</p>
+            <a href="link-to-project-2.com">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+    
+   <section id="contact">
+    <h2>Contact</h2>
+    <form action="submit-form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send</button>
+    </form>
+    <div class="contact-info">
+        <h3>Other ways to contact me:</h3>
+        <p>Phone: <a href="Phone:+91 8867224339">+91 8867224339</a></p>
+        <p>Email: <a href="gmail:ayubsowkar@gmail.com">ayubsowkar@gmail.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/+918867224339" target="_blank">+918867224339</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/ayub_sowkar" target="_blank">@ayub_sowkar</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 [Ayub Sowkar]. All rights reserved.</p>
+</footer>
+</body>
+</html>
